@@ -1,3 +1,5 @@
+// 3.  Implement Extended Euclidean Algorithm.
+
 import java.util.Scanner;
 
 public class ExtendedEuclidean {
@@ -34,3 +36,7 @@ public class ExtendedEuclidean {
     }
 }
 
+// Output
+// Enter r1: 15
+// Enter r2: 26
+// GCD: 1, t1: 7, t2: -4
