@@ -1,3 +1,5 @@
+// 1.  Implement Affine Cipher.
+
 import java.util.Scanner;
 
 public class AffineCipher {
