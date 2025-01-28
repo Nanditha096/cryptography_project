@@ -1,3 +1,5 @@
+// 5. Implement El-Gamal: Select e1, e2, r, d. Compute c1, c2. Decrypt using d. 
+
 import java.math.BigInteger;
 import java.util.Scanner;
 
