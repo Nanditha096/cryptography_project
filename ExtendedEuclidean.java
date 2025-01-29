@@ -1,4 +1,3 @@
-// 3.  Implement Extended Euclidean Algorithm.
 import java.util.Scanner;
 public class ExtendedEuclidean {
     public static int gcdExtended(int r1, int r2, int[] t) {
@@ -19,13 +18,9 @@ public class ExtendedEuclidean {
         int r1 = sc.nextInt();
         System.out.print("Enter r2: ");
         int r2 = sc.nextInt();        
-        // Array to hold t1 and t2
-        int[] t = new int[2];
-        
-        int g = gcdExtended(r1, r2, t);
-        
-        System.out.println("GCD: " + g + ", t1: " + t[0] + ", t2: " + t[1]);
-        
+        int[] t = new int[2];        
+        int g = gcdExtended(r1, r2, t);       
+        System.out.println("GCD: " + g + ", t1: " + t[0] + ", t2: " + t[1]);     
         sc.close();
     }
 }
