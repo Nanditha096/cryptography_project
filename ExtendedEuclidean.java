@@ -1,9 +1,6 @@
 // 3.  Implement Extended Euclidean Algorithm.
-
 import java.util.Scanner;
-
 public class ExtendedEuclidean {
-
     public static int gcdExtended(int r1, int r2, int[] t) {
         if (r1 == 0) {
             t[0] = 0;
@@ -16,15 +13,12 @@ public class ExtendedEuclidean {
         t[1] = temp[0];
         return gcd;
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter r1: ");
         int r1 = sc.nextInt();
-        
         System.out.print("Enter r2: ");
-        int r2 = sc.nextInt();
-        
+        int r2 = sc.nextInt();        
         // Array to hold t1 and t2
         int[] t = new int[2];
         
@@ -35,7 +29,6 @@ public class ExtendedEuclidean {
         sc.close();
     }
 }
-
 // Output
 // Enter r1: 15
 // Enter r2: 26
